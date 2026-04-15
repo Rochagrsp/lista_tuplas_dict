@@ -1,0 +1,341 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNA9YHeus8gWyc1ZMpDbtbn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rochagrsp/lista_tuplas_dict/blob/main/atividades.01ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 01\n"
+      ],
+      "metadata": {
+        "id": "HT1DiiufatBI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7VTbtuvZWeKb",
+        "outputId": "24ff093e-6027-4d27-b9b0-434940acad7a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Seu nome: Gabriel Rocha\n",
+            "Idade: 21\n",
+            "profissão: Desenvolvedor de sistemas\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = 'Gabriel Rocha'\n",
+        "idade = 21\n",
+        "profissao = 'Desenvolvedor de sistemas'\n",
+        "print(\"Seu nome:\",nome)\n",
+        "print(\"Idade:\",idade)\n",
+        "print('profissão:',profissao)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 02"
+      ],
+      "metadata": {
+        "id": "FJqm_a3razdH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "produto = 'Notebook'\n",
+        "marca = 'Dell'\n",
+        "preco = 4500\n",
+        "print(\"Produto:\",produto)\n",
+        "print(\"Marca:\",marca)\n",
+        "print(f'Valor:R${preco:.2f}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Fe3-Wim6a2dZ",
+        "outputId": "abec3778-d6a3-4cc9-a874-8a00df155a3f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Produto: Notebook\n",
+            "Marca: Dell\n",
+            "Valor:R$4500.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 03"
+      ],
+      "metadata": {
+        "id": "Tvr18zYueRwL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero1 = 12\n",
+        "numero2 = 6\n",
+        "soma= numero1 + numero2\n",
+        "subtracao= numero1 - numero2\n",
+        "multiplicacao= numero1 * numero2\n",
+        "divisao= int(numero1 / numero2)\n",
+        "print('Número 1:',numero1)\n",
+        "print('Número 2',numero2)\n",
+        "print('Soma:',soma)\n",
+        "print('Subtraçao:',subtracao)\n",
+        "print(\"Multiplicaçâo:\",multiplicacao)\n",
+        "print('Divisão:',divisao)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TOglQRDFeWK5",
+        "outputId": "a76cae90-80fe-448d-9cd6-e8f9838b5f53"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número 1: 12\n",
+            "Número 2 6\n",
+            "Soma: 18\n",
+            "Subtraçao: 6\n",
+            "Multiplicaçâo: 72\n",
+            "Divisão: 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 04"
+      ],
+      "metadata": {
+        "id": "JwGVIKeShFx-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero1=7\n",
+        "numero2=2\n",
+        "soma=numero1+numero2\n",
+        "subtracao=numero1-numero2\n",
+        "multiplicacao= numero1*numero2\n",
+        "divisao=int(numero1/numero2)\n",
+        "potenciacao=numero1**numero2\n",
+        "print('Número 1:',numero1)\n",
+        "print('Número 2',numero2)\n",
+        "print('Soma:',soma)\n",
+        "print('Subtraçao:',subtracao)\n",
+        "print(\"Multiplicaçâo:\",multiplicacao)\n",
+        "print('Divisão:',divisao)\n",
+        "print('potenciação',potenciacao)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "a_rTdPFVhJWs",
+        "outputId": "7e9981a5-6ef3-453e-ee34-78085c107106"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número 1: 7\n",
+            "Número 2 2\n",
+            "Soma: 9\n",
+            "Subtraçao: 5\n",
+            "Multiplicaçâo: 14\n",
+            "Divisão: 3\n",
+            "potenciação 49\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 05"
+      ],
+      "metadata": {
+        "id": "YUB6d7wmpP20"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1=15\n",
+        "num2=5\n",
+        "soma=num1+num2\n",
+        "sub=num1-num2\n",
+        "mult=num1*num2\n",
+        "divisao=int(num2/num1)\n",
+        "potenciacao=num1**num2\n",
+        "print('Numero1',num1)\n",
+        "print(\"numero2\",num2)\n",
+        "print(\"Soma\",num1+num2)\n",
+        "print(\"Subtração\",num1-num2)\n",
+        "print(\"Multiplicação\",num1*num2)\n",
+        "print('Divisão', num1/num2)\n",
+        "print('Potenciação',num1**num2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7s1exTe2pS_C",
+        "outputId": "a0f0566e-8842-4220-e9fa-71a654ebf0b8",
+        "collapsed": true
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Numero1 15\n",
+            "numero2 5\n",
+            "Soma 20\n",
+            "Subtração 10\n",
+            "Multiplicação 75\n",
+            "Divisão 3.0\n",
+            "Potenciação 759375\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 06"
+      ],
+      "metadata": {
+        "id": "qM3WW4bdsvve"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "materias=['Português','Matematica','Inglês']\n",
+        "notas=(5.9,7.7,9.5)\n",
+        "aluno={'Nome do aluno':'Gabriel','Idade':21,'curso':\"TI\"}\n",
+        "print('Materias:',materias)\n",
+        "print('Notas:',notas)\n",
+        "print('especifições do aluno:',aluno)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8hWyqpsmybgP",
+        "outputId": "69cfbf22-3378-4c87-949d-1f9b06167622"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Materias: ['Português', 'Matematica', 'Inglês']\n",
+            "Notas: (5.9, 7.7, 9.5)\n",
+            "especifições do aluno: {'Nome do aluno': 'Gabriel', 'Idade': 21, 'curso': 'TI'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Questão 07"
+      ],
+      "metadata": {
+        "id": "LPfBfbly5Hn-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "acessorios=['Bancos de couro',\"Vidros eletricos\",'Rodas de liga leve']\n",
+        "especificacoes=(78,45)#CV lITROS)\n",
+        "print('Especificações:',especificacoes)\n",
+        "print(carro)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8_5crXRQ_mgU",
+        "outputId": "283a33e9-9858-4195-b327-35c7305a63af"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Especificações: (78, 45)\n",
+            "{'Marca': 'chevrolet', 'modelo': 'life', 'ano': 2005}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "Ea0WqVDhETAC"
+      }
+    }
+  ]
+}
